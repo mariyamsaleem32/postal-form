@@ -1,0 +1,66 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+
+body{
+  align-items: center;
+  background-color: rgb(2, 22, 6);
+  color: aliceblue;
+
+}
+
+ .container{
+  width: 100%;
+ height: 100%;
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+} 
+
+.box{
+  width: 16%;
+  height: 100%;
+  display: flex;
+  background-color: rgb(83, 3, 30);
+  margin-top: 180px;
+  padding: 55px;
+  font-size: 30px;
+}
+
+#postal{
+  margin: 10px 30px 3px;
+  padding: 2px;
+  border: 2px solid white;
+  width: 170px;
+  height: 29px;
+}
+
+.btn{
+  text-align: center;
+  margin-top: 18px;
+}
+
+#btn{
+font-size: 40px;
+background-color: black;
+color: white;
+border: none;
+width: 170px;
+border-radius: 10%;
+cursor: pointer;
+}
+
+@media (min-width : 100px) and (max-width : 1284px)  {
+  .box{
+    width: 225px;
+    height: 100%;
+    display: flex;
+    background-color: rgb(83, 3, 30);
+    margin-top: 180px;
+    padding: 15px;
+    font-size: 30px;
+}
+};
